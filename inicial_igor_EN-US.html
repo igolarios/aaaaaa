@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<title>internationalizing</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade" role="navigation">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Go straight to the content</a> ou <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> Go straight to menu</a></li>
+		</ul>
+	</nav>
+
+	<nav id="lingua" role="navigation">
+		<ul>
+			<li><a tabindex="3" href="inicial_igor_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="inicial_igor_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="inicial_igor_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="inicial_igor_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu" role="navigation"><li><a id="subitem" href="#"> Menu</a>
+				<ul>
+					<li><a href="inicial_igor_EN-US.html">Translation and subtitling</a></li>
+					<li><a href="o_processo_EN-US.html">The process</a></li>
+					<li><a href="analise_de_musicas_EN-US.html">Songs analysis</a></li>
+					<li><a href="conteudos_extras_EN-US.html">Extra contents</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" role="banner" id="fundo" alt="A man and a woman speaking with each other. From theyr mouth there is a bunch of drawns of flags of different countries">
+
+
+	</header>
+	
+	<section>
+		<article role="main" id="principal">
+			<h1>The art of translation</h1>
+			<h2>What is translation? 
+			</h2>
+		</article>
+		<div class="content-grids">
+			<div class="esquerda">
+				<article>
+					<p>Have you ever imagined living in a world where, because of the linguistic barriers, it is not possible to communicate with others parts of the world? Thanks to translation, nowadays it is extremely simple to talk or to use content in another language and culture. But what is translation? 
+					</p>
+					<br>
+					<p>In a few words, translation is the act of transferring a content which is in a certain language to another. To do the translation of a text or content, transfer it in a literal way from one language to another is not enough. The grammar needs to be the greatest, because only in this way it will be possible to read the text. Slangs need to be watched out too, both of the original language from the target language since some slangs do not work when used in another language. It is also important to see the context of the words and sentences, since the same word, depending on the context, could change its meaning in the target language. 
+					</p>
+				</article>
+			</div>
+			<div class="direita">
+				<article>
+					<img src="o-que-eh-traducao.jpg" id="1-foto" alt="texto alternativo">
+				</article>
+			</div>
+		</div>
+		<br><br><br><br><br>
+		<article>
+		<h3 id="titulo3_principal">Subtitle X dubbing 
+		</h3>
+		</article>
+		<div id="texto2">
+		<article>
+			<p>The translation, depending on what it is being used for, can suffer some changes. When we look at the subtitle and Dub of the same project, the final result of both could be very different, because of that, these translations are constantly criticized by the general public. However, this discrepancy is justified when we look through the objectives and characteristics of each one. 
+			</p>
+			<p>The translation to subtitles goal is, just like all the others, to be as faithful as possible to the original. However, its biggest barrier is the time limit, space and number of words available, which could affect the final result. Thus, the dub is a translation made to be in perfect sync with the lip movement of the characters, being a more complex job, which needs constant changes and adaptations. These differences could be observed in the article from Carolina Alfaro (2005): 
+			</p>
+			<p>"The Dub consists in replacing the corresponding audio channels from the dialogues in a foreign language to sentences recorded by actors (called voice actors) from the target culture. They use as base a translation, which is made in a way that the pronunciation of the words in the target language be the most sync as possible with the lips movements of the character speaking on the screen. However, in the subtitling, all the original sound is kept and the translation of the foreign sentences is showed written in the low bar of the screen, which is showed in sync with the lines and eventually written text from the audiovisual material (ALFARO, 2005, p. 94-95)"
+			</p>
+			<p>The cultural factor of each country also has influence in these translations. It is possible to notice that the subtitling does not worry about adapting the lines of the characters to another culture, but for being faithful with the original. But of course, some things need to be adapted, which is the case of expressions and slangs. The dub in another way tries to be more adaptive, mainly in animated movies, where kids are the target audience who do not understand the costumes and slangs of other cultures. 
+			</p>
+			</article>
+	</div>
+	
+	</article>
+	
+	<footer>
+	Site created by Igor de Oliveira to the subject MTAM in the second semester os 2022, content written by Igor, Mariana and Rebeca.
+	</footer>
+
+	
+
+</body>
+	
+</html>

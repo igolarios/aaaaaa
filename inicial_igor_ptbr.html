@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>Internacionalizando</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade" role="navigation">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo" role="navigation"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Ir direto para o conteúdo</a> ou <a tabindex="2" href="#subitem" role=navigation title="Ao clicar no link, você será levado ao menu principal do site"> Ir para o menu</a></li>
+		</ul>
+	</nav>
+
+	<nav id="lingua">
+		<ul>
+			<li><a tabindex="3" href="inicial_igor_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="inicial_igor_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="inicial_igor_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="inicial_igor_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu" role="navigation"><li><a id="subitem" href="#"> Menu</a>
+				<ul>
+					<li><a href="inicial_igor_ptbr.html">Tradução e legendagem</a></li>
+					<li><a href="o_processo_ptbr.html">O processo</a></li>
+					<li><a href="analise_de_musicas_ptbr.html">Análise de músicas</a></li>
+					<li><a href="conteudos_extras_ptbr.html">Conteúdos extras</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" role="banner" id="fundo" alt="texto alternativo">
+
+
+	</header>
+	
+	<section>
+		<article role="main" id="principal">
+			<h1>A arte da tradução</h1>
+			<h2>O que é tradução?</h2>
+		</article>
+		<div class="content-grids">
+			<div class="esquerda">
+				<article>
+					<p>Você já imaginou viver em um mundo onde, por causa de barreiras linguísticas, não é possível se comunicar com pessoas de outras partes do mundo?  Graças a tradução, nos dias atuais é extremamente simples conversar ou consumir conteúdo de outras línguas e culturas. Mas, o que é tradução?</p>
+					<br>
+					<p>Em poucas palavras, tradução é passar um conteúdo que está em determinado idioma para o outro, sem que seja perdido o significado original do mesmo. Para se fazer a tradução de um texto ou conteúdo, não basta apenas transferi-lo de uma língua para outra de forma literal. É necessário que a gramática seja a mais perfeita possível, pois assim será possível ler o texto. Também devem ser observadas expressões do idioma, tanto do idioma de origem quanto o do idioma alvo, já que determinadas expressões não funcionam quando passadas para outra língua. É importante observar também, o contexto das frases e palavras, já que a mesma palavra, dependendo do contexto, pode mudar radicalmente seu significado em uma outra língua.</p>
+				</article>
+			</div>
+			<div class="direita">
+				<article>
+					<img src="o-que-eh-traducao.jpg" id="1-foto" alt="Um gato e um cachorro separados por um buraco. Ambos os animais estão sobre duas pernas e o cachorro está com um terno azul. O gato levanta uma placa escrito 'meow' e o cachorro uma escrito 'woof'">
+				</article>
+			</div>
+		</div>
+		<br><br><br><br><br>
+		<article>
+		<h3 id="titulo3_principal">Legendagem X Dublagem</h3>
+		</article>
+		<div id="texto2">
+		<article>
+			<p>A tradução, dependendo para o que ela está sendo feita, pode sofrer algumas mudanças. Quando olhamos a legendagem e a dublagem de uma mesma obra, o resultado final de ambas pode ser muito diferente, por conta disso, essas traduções são constantemente alvo de críticas pelo público. Porém, essa disparidade é justificada quando olhamos o objetivo e as características de cada uma.</p>
+			<p> A tradução para legendagem busca, assim como todas as outras, se manter o mais fiel possível ao original. No entanto, seu maior obstáculo é o limite de tempo, espaço e quantidade de palavras disponíveis, o que pode afetar o produto. Já a dublagem é uma tradução feita para estar em sincronia com o movimento labial dos personagens, sendo assim um trabalho mais complexo que necessita de constantes modificações e adaptações. Essas diferenças podem ser observadas no artigo de Carolina Alfaro (2005): </p>
+			<p>A dublagem consiste em substituir os canais de áudio correspondentes aos diálogos em língua estrangeira por enunciados gravados por atores (chamados dubladores) da cultura de chegada. Estes se baseiam numa tradução elaborada de modo a que a pronúncia das palavras na língua-alvo fique o mais sincronizada possível com os movimentos labiais das pessoas que aparecem na tela. Já na legendagem todo o som original é mantido e a tradução dos enunciados em língua estrangeira é apresentada por escrito na parte inferior da tela, através de legendas exibidas em sincronia com as falas e eventuais textos escritos do material audiovisual (ALFARO, 2005, p. 94-95).</p>
+			<p> O fator cultural de cada país também influencia nessas traduções. É possível notar que a legendagem não se preocupa tanto em adaptar as falas dos personagens para essa outra cultura, mas sim se manter o mais próximo do original. Mas claro que algumas coisas precisam ser adaptadas, como é o caso das expressões e gírias. A dublagem por outro lado tenta se adaptar mais, principalmente em filmes animados, onde seu público alvo são crianças que não conhecem os costumes/gírias de outras culturas. </p>
+			</article>
+	</div>
+	
+	</article>
+	
+	<footer role="contentinfo">
+	Página criada por Igor de Oliveira para a discipplina MTAM no segundo semestre de 2022, conteúdo escrito por Igor, Mariana e Rebeca. 
+	</footer>
+
+	
+
+</body>
+	
+</html>

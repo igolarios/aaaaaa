@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>Internacionalizando</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade" role="navigation">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Go straight to the content</a> ou <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> Go straight to menu</a></li>
+		</ul>
+	</nav>
+
+
+	<nav id="lingua" role="navigation">
+		<ul>
+			<li><a tabindex="3" href="conteudos_extras_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="conteudos_extras_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="conteudos_extras_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="conteudos_extras_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu" role="navigation"><li><a id="subitem" href="#"> Menu</a>
+			<ul>
+				<li><a href="inicial_igor_EN-US.html">Translation and subtitling</a></li>
+				<li><a href="o_processo_EN-US.html">The process</a></li>
+				<li><a href="analise_de_musicas_EN-US.html">Songs analysis</a></li>
+				<li><a href="conteudos_extras_EN-US.html">Extra contents</a></li>
+			</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" role="banner" id="fundo" alt="texto alternativo">
+
+
+	</header>
+
+    <section>
+		<article role="main" id="principal">
+			<h1>Extra contents</h1>
+		</article>
+    </article>
+    <br>
+	<div id="texto1_processo"> 
+		<article>
+			<p>In this session there's a bunch of different videos related to dub and subtitling to meet others point of views and profissional's opinion.
+			</p>
+            <p>In the video 'POR QUE A LEGENDA É DIFERENTE DA DUBLAGEM?", Mabel and Rayani have a friendly talk with the watcher about the process of dubbling and subtetling.</p>
+            <iframe width="300" height="200" id="video1" src="https://youtu.be/QW1FVwCMl0A" title="por que a legenda é diferente da dublagem?, de sociedade brasileira de dublagem" framevorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+            <p>In the video below, "Legenda é diferente da Dublagem?" the professional dubbler Wendel Bezerra records a video to the watcher teaching about the many differences about dubbing and subtitling </p>
+            <iframe width="300" height="200" id="video1" src="https://www.youtube.com/watch?v=iSQBxgM7zpk" title="Legenda é diferente da Dublagem?, de Wendel Bezerra" framevorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+        </article>
+        </div>
+        </section>
+        <br><br>
+        <p id="creditos">The banner of this site was provided by stock.adobe.com
+            <br>
+            The image used at the inicial page of this site was provided by cartoonresource/Adobe Stock
+        </p>
+        <footer role="contentinfo">
+			Site created by Igor de Oliveira to the subject MTAM in the second semester os 2022, content written by Igor, Mariana and Rebeca.
+         </footer>
+        </body>

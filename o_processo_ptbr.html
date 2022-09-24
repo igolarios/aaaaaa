@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>Internacionalizando</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade">
+		<ul> 
+			<li class="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Ir direto para o conteúdo</a> ou <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> Ir para o menu</a></li>
+		</ul>
+	</nav>
+
+	<nav id="lingua">
+		<ul>
+			<li><a tabindex="3" href="o_processo_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="o_processo_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="o_processo_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="o_processo_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu"><li><a id="subitem" href="#"> Menu</a>
+				<ul>
+					<li><a href="inicial_igor_ptbr.html">Tradução e legendagem</a></li>
+					<li><a href="o_processo_ptbr.html">O processo</a></li>
+					<li><a href="analise_de_musicas_ptbr.html">Análise de músicas</a></li>
+					<li><a href="conteudos_extras_ptbr.html">Conteúdos extras</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" id="fundo" alt="texto alternativo">
+
+
+	</header>
+	<article role="main" id="principal_processo">
+		<h1>O processo de tradução</h1>
+		<h2 id="h2_processo">Tradução para a dublagem</h2>
+	</article>
+	<div id="texto1_processo"> 
+		<article>
+			<p>Até que um filme esteja pronto para ser dublado existe um longo processo a ser percorrido pelos tradutores específicos para dublagem.  E mesmo depois de todo um trabalho de adequação e tradução, muitas pessoas reclamam das diferenças de compatibilidade entre o original, o legendado e o dublado, com ênfase maior na forma como a tradução da dublagem ficou.  
+			</p>
+			<p>As diferenças acontecem porque cada área tem suas noções específicas para trabalhar, cada uma tem uma limitação diferente. Na tradução de dublagem, o tradutor enfrenta problemas por conta da sincronia labial, do tempo das falas e da adequação ao contexto da língua para qual vai ser traduzida. Mesmo que o tradutor não queira fazer mudanças, a dublagem tem seus restringimentos e algumas alterações são sempre necessárias.   
+			Em se tratando da tradução de legendagem sabe-se que algumas questões são colocadas, porque existe uma moderação de caracteres, linhas e tempo. Para que a tradução funcione não é suficiente apenas passar para outro idioma o que foi dito pelo ator ou personagem, mas é importante que o telespectador tenha tempo de ler o que está escrito na tela. 
+			Na tradução de dublagem esse problema é ainda maior porque o profissional precisa combinar a tradução com o movimento labial do ator. A tradução precisa ser do mesmo tamanho que a fala do ator, para que o dublador consiga articular a frase começando e terminando junto com o movimento labial de quem está sendo dublado. Palavras com o mesmo significado muitas vezes podem não ter o mesmo tamanho em línguas diferentes. E por isso, é necessário que o profissional de tradução faça ajustes que podem acabar tendo um resultado diferente do original. 
+			</p>
+			<p>Outra questão também é a alteração de falas, trocadilhos ou expressões com sentido próprio no idioma de origem mas que perdem seu significado quando passadas para outra língua ou até mesmo que são intraduzíveis por questões culturais. Quando isso acontece, o tradutor de dublagem precisa achar uma expressão no idioma de chegada que seja equivalente ou que se encaixe no contexto da fala e nas limitações de tempo, o que às vezes gera um resultado diferente do original. O importante é que se mantenha a essência da obra e que o telespectador entenda a mensagem.  
+			Quando se fala em tradução de canções, e principalmente de canções em filmes, séries e desenhos infantis essas questões têm um peso maior. Muitas vezes as canções têm um significado e uma importância muito grande dentro da obra que podem até mesmo ser interpretadas por cantores famosos. Chega a ser preciso até que um profissional especializado nesse tipo de tradução para dublagem seja requerido, para que haja uma coerência na tradução da melodia, da métrica e das rimas.  
+			</p>
+		</article>		
+	</div>
+	<article><h3 id="titulo2_processo">Tradução para a legendagem</h3></article>
+	<div id="texto2_processo">
+		<article>
+			<p>A legendagem consiste em colocar um texto traduzido em uma obra audiovisual, mantendo seu áudio original. Porém, essa prática não é tão simples assim, pois existem várias regras que o profissional deve seguir. Primeiramente, a legenda tem que conter 15 caracteres por segundo, ter no máximo 42 caracteres por linha (incluindo espaços) e ser escrita em no máximo duas linhas, que é considerada a quantidade adequada de texto para ser lida em tão pouco tempo. Seguindo essas regras, muitas vezes as falas têm que sofrer adaptações, por exemplo, algumas palavras são substituídas por seus sinônimos ou frases são completamente modificadas, mas sem perder seu sentido e finalidade. Dessa forma, o profissional não tem tanta liberdade para traduzir uma certa cena ou muita criatividade.
+			</p>
+			<p>Além disso, a legendagem é uma prática que vai além de apenas traduzir um texto de uma língua para outra. O tradutor que fará a legendagem de um filme por exemplo, tem que ter um preparo e conhecimento/prática da legendagem e conhecimento profundo das línguas trabalhadas. Isso é necessário, pois além de ser um processo interlingual, a legendagem é intracultural, ou seja, ela é passada de uma cultura para outra. Por conta disso, muitas falas em filmes têm que sofrer uma alteração ou uma adequação, principalmente as gírias, expressões, trocadilhos ou falas que se traduzidas literalmente não fariam sentido, e essas decisões são tomadas pelo profissional especializado. 
+			</p>
+		</article>
+	</div>
+	<footer>
+		Página criada por Igor de Oliveira para a discipplina MTAM no segundo semestre de 2022, conteúdo escrito por Igor, Mariana e Rebeca. 
+		</footer>
+	</body>

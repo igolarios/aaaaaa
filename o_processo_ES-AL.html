@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>Internacionalizando</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> saltar para el contenido</a> o <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> saltar para el menu</a></li>
+		</ul>
+	</nav>
+
+
+	<nav id="lingua">
+		<ul>
+			<li><a tabindex="3" href="o_processo_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="o_processo_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="o_processo_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="o_processo_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu"><li><a id="subitem" href="#"> Menu</a>
+			<ul>
+				<li><a href="inicial_igor_ptbr.html">subtitulado y doblaje</a></li>
+				<li><a href="o_processo_ptbr.html">El proceso</a></li>
+				<li><a href="analise_de_musicas_ptbr.html">Análisis de la música</a></li>
+				<li><a href="conteudos_extras_ptbr.html">contenidos extras</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" id="fundo" alt="texto alternativo">
+
+
+	</header>
+	<article role="main" id="principal_processo">
+		<h1>El proceso de tradución</h1>
+		<h2 id="h2_processo">Traducción para el doblaje
+		</h2>
+	</article>
+	<div id="texto1_processo"> 
+		<article>
+			<p>Hasta que una película está lista para ser doblada hay un largo proceso por el que deben pasar los traductores específicos de doblaje.  E incluso después de todo el trabajo de adaptación y traducción, mucha gente se queja de las diferencias de compatibilidad entre el original, el subtitulado y el doblado, con mayor énfasis en cómo quedó la traducción doblada. 
+
+			</p>
+			<p>Las diferencias ocurren porque cada área tiene sus nociones específicas para trabajar, cada una tiene una limitación diferente. En la traducción para el doblaje, el traductor enfrenta problemas debidos a la sincronización de los labios, el ritmo de las líneas y la adecuación al contexto del idioma para el que se va a traducir. Aunque el traductor no quiera hacer cambios, el doblaje tiene sus restricciones y algunos cambios son siempre necesarios.  
+			Cuando se trata de la traducción de subtítulos, se sabe que se ponen algunas cuestiones, porque hay una moderación de caracteres, líneas y tiempo. Para que la traducción funcione, no basta pasar a otro idioma lo fue dicho por el actor o el personaje, pero es importante que el espectador tenga tiempo de leer lo que está escrito en la pantalla.
+			En la traducción para el doblaje este problema es aún mayor porque el profesional tiene que combinar la traducción con el movimiento de los labios del actor. La traducción debe tener el mismo tamaño que el discurso del actor, para que el doblador pueda articular la frase empezando y terminando junto con el movimiento de los labios de la persona doblada. Las palabras con el mismo significado muchas veces pueden no tener la misma longitud en diferentes idiomas. Por lo tanto, es necesario que el profesional de la traducción realice ajustes que pueden acabar teniendo un resultado diferente al original.
+				 
+			</p>
+			<p>Otra cuestión es la alteración de líneas, juegos de palabras o expresiones que tienen su propio significado en la lengua de origen pero que pierden su sentido al ser trasladadas a otra lengua o incluso que son intraducibles por razones culturales. Cuando esto ocurre, el traductor de doblaje tiene que encontrar una expresión en la lengua de destino que sea equivalente o se ajuste al contexto del discurso y a las limitaciones de tiempo, lo que a veces genera un resultado diferente del original. Lo importante es que se mantenga la esencia de la obra y que el espectador comprenda el mensaje. 
+
+			Cuando se trata de la traducción de canciones, y especialmente de las canciones de películas, series y dibujos animados, estas cuestiones tienen mayor peso. A menudo las canciones tienen un significado y una importancia muy grande dentro de la obra que incluso pueden ser interpretadas por cantantes famosos. Incluso, llega a ser necesario requerir un profesional especializado en este tipo de traducción para el doblaje, para que haya coherencia en la traducción de la melodía, la métrica y las rimas. 
+
+			</p>
+		</article>		
+	</div>
+	<article><h3 id="titulo2_processo">Tradução para a legendagem</h3></article>
+	<div id="texto2_processo">
+		<article>
+			<p>El subtitulado consiste en colocar un texto traducido en una obra audiovisual, manteniendo su audio original. Pero, esta práctica no es tan simple, ya que hay varias reglas que el profesional debe seguir. Primeramente, la leyenda tiene que contener 15 caracteres por segundo, tener un máximo de 42 caracteres por línea (incluyendo espacios) y ser escrita en máximo dos líneas, que es considerada la cantidad adecuada de texto para ser leída en tan poco tiempo. Siguiendo estas reglas, muchas veces las palabras tienen que sufrir adaptaciones, por ejemplo, algunas palabras son sustituidas por sus sinónimos o frases son completamente modificadas, pero sin perder su sentido y finalidad. De esta manera, el profesional no tiene tanta libertad para traducir una cierta escena ni mucha creatividad.
+			</p>
+			<p>Además, el subtitulado es una práctica que va más allá de solo traducir un texto de una lengua a otra. El traductor que hará el subtitulado de una película por ejemplo, tiene que tener una preparación y conocimiento/práctica del subtitulado y conocimiento profundo de las lenguas trabajadas. Esto es necesario, porque además de ser un proceso interlingual, el subtitulado es intracultural, es decir, se pasa de una cultura a otra. Por cuenta de eso, muchas frases en películas tienen que sufrir una alteración o una adecuación, principalmente las jergas, expresiones, juegos de palabras o frases que si traducidas literalmente no tendrían sentido, y esas decisiones son tomadas por el profesional especializado.
+			</p>
+		</article>
+	</div>
+	<footer>
+		Página creada por Igor de Oliveira para el tema MTAM en el secondo semestre de 2022, contenido escrito por Igor, Mariana e Rebeca. 
+		</footer>
+	</body>

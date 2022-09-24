@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>international</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade" role="navigation">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Aller au contenu</a> ou <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> Aller au menu</a></li>
+		</ul>
+	</nav>
+
+	<nav id="lingua" role="navigation">
+		<ul>
+			<li><a tabindex="3" href="conteudos_extras_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="conteudos_extras_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="conteudos_extras_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="conteudos_extras_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu"><li><a id="subitem" href="#"> Menu</a>
+			<ul>
+				<li><a href="inicial_igor_ptbr.html">Traduction et sous-titrage</a></li>
+				<li><a href="o_processo_ptbr.html">Le proces</a></li>
+				<li><a href="analise_de_musicas_ptbr.html">Analyse de la musique</a></li>
+				<li><a href="conteudos_extras_ptbr.html">contenu extra</a></li>
+			</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" id="fundo" alt="Un homme et une femme parlent. Sur la bouche de les deux ai drapeau de différents pays">
+
+
+	</header>
+
+    <section>
+		<article role="main" id="principal">
+			<h1>contenu extras</h1>
+		</article>
+    </article>
+    <br>
+	<div id="texto1_processo"> 
+		<article>
+			<p>ici, ai différents vidéos relacioné a le doublage et sous-titrage pour connu otre point de viste e l'opinion de le profissioneles
+			</p>
+            <p>Dans le vidéo 'POR QUE A LEGENDA É DIFERENTE DA DUBLAGEM?", Mabel et Rayani ont un chat avec l'espectateur sur le proces de doublage et sous-titrage.</p>
+            <iframe width="300" height="200" id="video1" src="https://youtu.be/QW1FVwCMl0A" title="por que a legenda é diferente da dublagem?, de sociedade brasileira de dublagem" framevorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+            <p>Dans sa vidéo, "Legenda é diferente da Dublagem?" Le doublé professional Wendel Bezerra grave un vidéo informer l'auditeur sur de las différences de la doublage et sous-titrage.</p>
+            <iframe width="300" height="200" id="video1" src="https://www.youtube.com/watch?v=iSQBxgM7zpk" title="Legenda é diferente da Dublagem?, de Wendel Bezerra" framevorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+        </article>
+        </div>
+        </section>
+        <br><br>
+        <p id="creditos">Le banner de ça site a été accordé pour stock.adobe.com
+            <br>
+            L'image utilisé dans la page iniciale a été accordé pour cartoonresource/Adobe Stock
+        </p>
+        <footer role="contentinfo">
+			page crée pour Igor de Oliveira au lmatiére MTAM sur le deuxieme semestre de 2022, contenu ecrit pour Igor, Mariana et Rebeca. 
+         </footer>
+        </body>

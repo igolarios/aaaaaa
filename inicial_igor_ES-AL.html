@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es-AL">
+<head>
+	<title>Internacionalizando</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> saltar para el contenido</a> o <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> saltar para el menu</a></li>
+		</ul>
+	</nav>
+	<nav class="customizar">
+		<ul>
+			<li><a tabindex="8" title="aumenta a fonte do site"> A-</a></li>
+			<li><a tabindex="7" title="Diminui a fonte do site"> A+</a></li>
+		</ul>
+	</nav>
+
+	<nav id="lingua">
+		<ul>
+			<li><a tabindex="3" href="inicial_igor_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="inicial_igor_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="inicial_igor_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="inicial_igor_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu"><li><a id="subitem" href="#"> Menu</a>
+				<ul>
+					<li><a href="inicial_igor_ptbr.html">subtitulado y doblaje</a></li>
+					<li><a href="o_processo_ptbr.html">El proceso</a></li>
+					<li><a href="analise_de_musicas_ptbr.html">Análisis de la música</a></li>
+					<li><a href="conteudos_extras_ptbr.html">contenidos extras</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" id="fundo" alt="Un hombre y una mujer hablando. de sus bocas sales algunas banderas de paises">
+
+
+	</header>
+	
+	<section>
+		<article role="" id="principal">
+			<h1>La arte de la tradución</h1>
+			<h2>¿Qué es la traducción?
+			</h2>
+		</article>
+		<div class="content-grids">
+			<div class="esquerda">
+				<article>
+					<p>¿Alguna vez has imaginado vivir en un mundo donde, debido a las barreras lingüísticas, no puede comunicarse con personas de otras partes del mundo?  Gracias a la traducción, hoy en día es sumamente sencillo conversar o consumir contenidos de otras lenguas y culturas. Pero ¿qué es la traducción?
+					</p>
+					<br>
+					<p>En pocas palabras, traducción es pasar un contenido que está en una determinada lengua a otra, sin perder su significado original. Para hacer la traducción de un texto o contenido, no basta solo trasladarlo de una lengua a otra de forma literal. Es necesario que la gramática sea la más perfecta alcanzable, pues así será posible leer el texto. También deben ser observadas expresiones del idioma en el idioma de origen y en el idioma de destino, ya que determinadas expresiones no funcionan cuando traducidas a otra lengua. También es importante observar el contexto de las frases y palabras, ya que una misma palabra, dependiendo del contexto, puede cambiar radicalmente su significado en otro idioma. 
+					</p>
+				</article>
+			</div>
+			<div class="direita">
+				<article>
+					<img src="o-que-eh-traducao.jpg" id="1-foto" alt="un perro y un gato, los dos están separados por un agujero. El perro tiene una placa escrito woof y el gato una placa escrito meow.">
+				</article>
+			</div>
+		</div>
+		<br><br><br><br><br>
+		<article>
+		<h3 id="titulo3_principal">Subtitulado y doblaje
+		</h3>
+		</article>
+		<div id="texto2">
+		<article>
+			<p>La traducción, dependiendo de para qué se haga, puede sufrir algunos cambios. Cuando observamos el subtitulado y el doblaje de una misma obra, el resultado final de ambos puede ser muy diferente, por eso, esas traducciones son blancos constantes de críticas por el público. Pero esta disparidad se justifica cuando observamos el objetivo y las características de cada una.
+			</p>
+			<p> La traducción para el subtitulado busca, como todas las demás, ser lo más fiel posible al original. Sin embargo, su mayor obstáculo es el límite de tiempo, el espacio y la cantidad de palabras disponibles, que pueden afectar al producto. Por otro lado, el doblaje es una traducción hecha para estar en sintonía con los movimientos de los labios de los personajes, siendo así un trabajo más complejo que requiere constantes modificaciones y adaptaciones. Estas diferencias se pueden observar en el artículo de Carolina Alfaro (2005): </p>
+			<p>El doblaje consiste en sustituir los canales de audio correspondientes a los diálogos en lengua extranjera por expresiones grabadas por actores (llamados dobladores) de la cultura de destino. Estos se basan en una traducción elaborada para que la pronunciación de las palabras en la lengua de destino esté lo más sincronizada posible con los movimientos de los labios de las personas que aparecen en la pantalla. Ya el subtitulado mantiene todo el sonido original y la traducción de los enunciados en lengua extranjera se presenta por escrito en la parte inferior de la pantalla, a través de subtítulos que se muestran en sincronía con las líneas y eventuales textos escritos del material audiovisual (ALFARO, 2005, p. 94-95).
+			</p>
+			<p> El factor cultural de cada país también influye en estas traducciones. Se puede ver que el subtitulado no se preocupa tanto por adaptar las líneas de los personajes a esta otra cultura, sino por mantenerse lo más cerca posible del original. Pero es evidente que hay que adaptar algunas cosas, como las expresiones y las jergas. El doblaje, en cambio, intenta adaptarse más, principalmente en las películas de animación, cuyo público principal son los niños, que no conocen las costumbres/jergas de otras culturas.
+			</p>
+			</article>
+	</div>
+	
+	</article>
+	
+	<footer>
+	Página creada por Igor de Oliveira para el tema MTAM en el secondo semestre de 2022, contenido escrito por Igor, Mariana e Rebeca. 
+	</footer>
+
+	
+
+</body>
+	
+</html>

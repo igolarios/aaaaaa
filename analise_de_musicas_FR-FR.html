@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>international</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade">
+		<ul role="navigation"> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Aller au contenu</a> ou <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> Aller au menu</a></li>
+		</ul>
+	</nav>
+
+
+	<nav id="lingua" role="navigation">
+		<ul>
+			<li><a tabindex="3" href="analise_de_musicas_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="analise_de_musicas_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="inicial_igor_FR-FR" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="inicial_igor_ES-AL" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu" role="navigation"><li><a id="subitem" href="#"> Menu</a>
+				<ul>
+					<li><a href="inicial_igor_ptbr.html">Traduction et sous-titrage</a></li>
+					<li><a href="o_processo_ptbr.html">Le proces</a></li>
+					<li><a href="analise_de_musicas_ptbr.html">Analyse de la musique</a></li>
+					<li><a href="conteudos_extras_ptbr.html">contenu extra</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" id="fundo" alt="Un homme et une femme parlent. Sur la bouche de les deux ai drapeau de différents pays">
+
+
+	</header>
+
+    <article role="main" id="principal_musicas">
+		<h1>Analyse de la musique</h1>
+	</article>
+    <br>
+	<div id="texto1_processo">
+		<article>
+			<p>Les différences entre les types de traductions peuvent être vues dans le film Disney "Encanto", dans la version portugaise brésilienne, dans la chanson "Não Falamos do Bruno" (en anglais : "We Don’t Talk About Bruno"). Nous pouvons voir dans une certaine partie de la musique la différence d'objectifs et de préoccupations des deux traductions. Dans l'audio original, en anglais, le personnage Camilo chante "Isabela, your boyfriend's here", ce qui se traduit mot à mot en portugais par "Isabela, seu namorado está aqui". Dans les sous-titres, elle a été placée comme "Isabela, seu namorado chegou", ce qui est très proche de l'original. Dans le doublage portugais, elle est devenue "Isabela, seu boy chegou", où "boy" est un argot utilisé pour désigner le petit ami de quelqu'un, c'est-à-dire, en plus d'adapter ce passage à la culture brésilienne, les mouvements des lèvres du personnage s'adapter presque parfaitement, car si le mot "namorado" était utilisé, les mouvements seraient assez différents du "boyfriend" d'origine. 
+			</p>
+            <br>
+            <h2 id="h2_musica">analyse de "Saber quem sou"</h2>
+			<p>En analysant la version portugaise brésilienne de la chanson "Saber quem sou" (de l'original How Far I’ll Go) du film pour enfants de Disney "Moana", il y a aussi quelques adaptations faites pour le doublage. Dans la version originale, nous trouvons le passage suivant: “I've been standing at the edge of the water; Long as I can remember; Never really knowing why” qui ne peut pas être traduit littéralement parce que le résultat serait une phrase très longue pour la mélodie et le temps de la chanson en portugais brésilien, donc la première phrase de la chanson qui se traduirait par “Eu estive parada à beira da água” est devenue “Aqui sempre, sempre à beira da água” où une technique de répétition du mot "sempre" a été utilisée pour garder le rythme et chantée avec la contraction "’sempra’ beira da água" pour ne pas casser la métrique. Dans la deuxième phrase, l’adaptation est plus petite car elle est causée par le retrait d’un seul mot, "can". Dans le doublage brésilien, c’est “Desde quando eu me lembro” dans une traduction littérale serait “Desde que eu consigo me lembrar”. Dans le refrain, les adaptations sont plus grandes, la première phrase “See the line where the sky meets the sea? It calls me” dans le doublage est “O horizonte me pede para ir tão longe” a du sens ce choix de mots parce que la ligne où le ciel rencontre la mer est l’horizon, donc le sens de l’expression continue et la traduction littérale ne rentrerait pas dans la mélodie de la musique. 
+            <br>    
+			La version doublée apporte plus de références au contexte de l’œuvre que dans une traduction littérale n’en aurait, un exemple est dans le passage du refrain  "If the wind in my sail on the sea; Stays behind me" qui fait référence à la scène du début du film où la mer s’ouvre au protagoniste alors qu’elle était encore enfant et lui donne le cœur de Tefiti. Aussi dans "I wish I could be the perfect daughter" on voit cette influence, car dans le doublage est “Tento não causar nenhuma mágoa” qui se réfère à la préoccupation de Moana de ne pas décevoir son père et son peuple. 
+			Cette chanson a été un grand succès et a été traduite dans de nombreuses langues. Dans la version espagnole, le passage qui dans l’original est  "I wish I could be the perfect daughter" reste "Nunca la perfecta niña he sido" et contrairement à la version brésilienne qui montre la protagoniste concerné de ne blesser personne, ce doublage fait référence aux désirs et aux tentatives de Moana depuis son plus jeune âge, essayant d’aller à la mer et allant contre la volonté de son père.    
+			</p>
+            <br><br>
+            <h3 id="titulo2_musica">analyse de "Into the Unknown"</h3>
+			<p> Dans le film Frozen II, dans la chanson "Minha Intuição" (de l’anglais "Into the Unknown"), les traductions réalisées, comparées côte à côte, sont assez différentes, principalement le doublage, mais il peut être justifié lorsque l’on regarde le contexte. En traduisant littéralement, le refrain "into the unknown" resterait "para o desconhecido", dans la traduction de la légende, nous avons "rumo ao desconhecido", qui n’a pas beaucoup changé de l’original, seulement utilisé un synonyme à "para". Déjà dans le cas du doublage, nous voyons une situation différente et plus complexe, car le refrain a été traduit en "minha intuição". Vu de cette façon, il est très éloigné de l’original et perd même son sens, mais quand nous voyons les parties précédentes, nous pouvons voir que même si la traduction est différente, le sens / but reste. 
+				En analysant la ligne “Everyone I've ever loved is here within these walls; I'm sorry, secret siren, but I'm blocking out your calls; I've had my adventure, I don't need something new; I'm afraid of what I'm risking if I follow you; Into the unknown”, vous pouvez voir que son sens serait que le personnage, même s'il est appelé par quelque chose pour aller à un endroit inconnu, veut rester à l'endroit où il est avec les gens qu'il aime, ne voulant plus de changements et aventures dans votre vie. 
+				Le doublage suit le même sens en disant : “Todo mundo que eu amo está neste lugar; Lamento, voz secreta, mas eu vou te ignorar; Já fui muito longe, eu já me decidi; Só existe um caminho, e eu vou seguir; Minha intuição”. Ici, nous voyons le sens de la traduction en "minha intuição", car son intuition, c’est-à-dire son désir à ce moment-là est d’être avec ceux qu’elle aime, sans se lancer dans de nouvelles aventures. Cela dit, en plus de maintenir le but initial, ce changement a fait en sorte que la traduction corresponde aux mouvements des lèvres du personnage.
+	  
+ 
+			</p>
+		</article>
+        </div>
+        <footer role="contentinfo">
+			page crée pour Igor de Oliveira au lmatiére MTAM sur le deuxieme semestre de 2022, contenu ecrit pour Igor, Mariana et Rebeca.
+            </footer>
+        </body>

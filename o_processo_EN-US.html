@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<title>internacionalizing</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="jqueryigor.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {    
+
+
+
+               $('#botaotopo').stickyMojo({footerID: '#footer', contentID: '#fullpage'});
+
+
+
+               $('.ancla').click(function(){
+                    var link = $(this);
+                    var anchor  = link.attr('href');
+                    $('html, body').stop().animate({
+                        scrollTop: jQuery(anchor).offset().top
+                    }, 2000);
+                    return false;
+                });
+            });
+        </script>
+</head>
+
+<body>
+<header>
+	
+
+	<nav class="acessibilidade">
+		<ul> 
+			<li class="pular_conteudo" id="pular_conteudo"><a tabindex="1" href="#principal" title="ao clicar no link, você será levado ao conteúdo principal do artigo"> Go straight to the content</a> ou <a tabindex="2" href="#subitem" title="Ao clicar no link, você será levado ao menu principal do site"> Go straight to menu</a></li>
+		</ul>
+	</nav>
+
+
+	<nav id="lingua">
+		<ul>
+			<li><a tabindex="3" href="o_processo_ptbr.html" title="Site em Português">PT-BR</a></li>
+			<li><a tabindex="4" href="o_processo_EN-US.html" title="Site in English">EN-US</a></li>
+			<li><a tabindex="5" href="o_processo_FR-FR.html" title="Site en français">FR-FR</a></li>
+			<li><a tabindex="6" href="o_processo_ES-AL.html" title="Site en español">ES-AL</a></li>
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul id="menu"><li><a id="subitem" href="#"> Menu</a>
+			<ul>
+				<li><a href="inicial_igor_EN-US.html">Translation and subtitling</a></li>
+				<li><a href="o_processo_EN-US.html">The process</a></li>
+				<li><a href="analise_de_musicas_EN-US.html">Songs analysis</a></li>
+				<li><a href="conteudos_extras_EN-US.html">Extra contents</a></li>
+			</ul></li>
+		</ul>
+	</nav>
+
+	<link type="text/css" rel="stylesheet" href="estilo_igor.css"/>
+	<img src="banner-temporario.jpg" id="fundo" alt="A man and a woman speaking with each other. From theyr mouth there is a bunch of drawns of flags of different countries">
+
+
+	</header>
+	<article role="main" id="principal_processo">
+		<h1>The traduction process</h1>
+		<h2 id="h2_processo">Translation to dub 
+		</h2>
+	</article>
+	<div id="texto1_processo"> 
+		<article>
+			<p>Until the movie is ready to be dubbed, there is a long process to be surpassed by the specific dub translators. And even after a long work of adjustments and translations, many people still complain about the compatibility differences between the original, the subtitled, and the dubbed, with a big emphasis on the way the translations were used. 
+			</p>
+			<p>These differences happen because each area has their own specific notions to work on, every single one has its own limitations. In the translation for dub, the translator faces problems with the lip sync, the time of each line and the adaption of the context of the scene in the target language. Even if the translator does not want to make changes, the dub has its restrictions and some changes will always be necessary. 
+			When dealing with translation to subtitles, it is known that some questions can be made, because there is a limit of characters, lines and time. For the translation work, transferring what was said by the character to the target language is not enough, it is important that the watchers have time to read what is written on the screen. 
+			In the translation used for dub, this problem is even bigger because the professional needs to combine the translation with the lip of the character. The translation sentence needs to be of the same size as the actor, so the voice actor can say the sentence starting and ending at the same time as the dubbed character. Many times, words with the same meaning could not have the same size in other languages. Because of that it is necessary that the translator do some adjustment, which could have a different result from the original. 
+				
+			</p>
+			<p>Another important question is the change of lines or slangs with its own unique meaning in the original language which lose their meaning when transferred to the target language, or are even impossible to introduce due to cultural questions. When this occurs, the translator of the dub needs to find an expression in the target language who is equivalent or could fit in the original context, without surpassing the time limit, which could have a different result from the original work. The important thing is that the essence of the movie stays the same and the watcher understands the message. 
+			When translations in songs are approached, mainly in the movies songs, series and cartoons, these questions have a greater impact. Many times the songs have a meaning and an importance in the picture, which could even be sung by famous singers. Sometimes a specialized professional in these types of translation, so a coherence in the translation, melody, metric and rhymes is possible. 				
+			</p>
+		</article>		
+	</div>
+	<article><h3 id="titulo2_processo">Traduction to subtitling</h3></article>
+	<div id="texto2_processo">
+		<article>
+			<p>Subtitling consists of placing a translated text in an audiovisual work, keeping its original audio. However, this practice is not so simple, because there are several rules that the professional must follow. First, the caption must contain 15 characters per second, have a maximum of 42 characters per line (including spaces) and be written in a maximum of two lines, which is considered the appropriate amount of text to be read in such a short time. Following these rules, often the speeches have to undergo adaptations, for example, some words are replaced by their synonyms or phrases are completely modified, but without losing their meaning and purpose. This way, the professional does not have so much freedom to translate a certain scene or a lot of creativity.
+
+			</p>
+			<p>Besides that, the subtetling is something whom is more than just translate a text to another language. The translator who will do the translation, in example, must have an preparation and knowledge/practies of subtetling and an deep knowledge of the target language. that's necessa, because besides of being an interlingual process, the subtitling is an intracultural, that means, it's passes by a culture to another. For this reason, many words in movies needs to be changed or adequated, mainly the slangs, expressions, jokes or sentences literally translated won't make so much sense, and these decisions are taken by the specialized professional.
+			</p>
+		</article>
+	</div>
+	<footer>
+		Site created by Igor de Oliveira to the subject MTAM in the second semester os 2022, content written by Igor, Mariana and Rebeca.
+		</footer>
+	</body>
